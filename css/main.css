@@ -101,19 +101,18 @@ body {
 /*formato del menú que quedará fijo mientras se haga scroll*/
 header{
   /*outline: 2px solid red;*/
-  font-size: 0.9em;
+  font-size: 100%;
   font-weight: bold;
   background: white;
   position: fixed;
   width: 100%;
-  padding-top: 2.2em;
+  padding-top: 2%;
 
 }
 /*formato del logo del menu fijo*/
 #logo{
-  width: 4em;
-  height: 4em;
-  margin: -10em 0 0 72em;
+  width: 5%;
+  margin: -10% 0 0 80%;
   /*outline: 2px solid green;*/
 }
 /*formato de la lista del menu fijo*/
@@ -141,11 +140,10 @@ header .text-uppercase a:hover {
   padding-top: 5em;
 }
 /*para hacer el botón verde de ver servicios*/
-#section1 a {
+#section1 a{
+  text-decoration: none;
   color: white;
   background-color: #4CEA8C;
-  text-align: center;
-  display: block;
   margin: 5em 33em 0 33em;
   padding: 0.6em;
 }
@@ -166,6 +164,9 @@ header .text-uppercase a:hover {
   width: 70.5em;
   text-align: center;
   margin: 0;
+}
+#section2 tr td{
+  line-height: 10%;
 }
 #section2 img{
   width: 10em;
