@@ -92,7 +92,7 @@ body {
   line-height: 1.71429;
   font-family: 'Raleway', sans-serif;
   float: left;
-  /*outline: 2px solid blue;*/
+  /*outline: 2px solid blue; -->este paso es para visualizar el tamaño del elemento*/
 }
 /*convertir en mayúscula los títulos que están en minúscula*/
 .text-uppercase {
@@ -117,7 +117,7 @@ header{
 }
 /*formato de la lista del menu fijo*/
 header .text-uppercase a {
-  padding-left: 3em;
+  padding-left: 3%;
   color: #373B47;
   text-decoration: none;
   /*outline: 2px solid green;*/
@@ -141,24 +141,29 @@ header .text-uppercase a:hover {
 }
 /*para hacer el botón verde de ver servicios*/
 #section1 a{
+  line-height: 1000%;   /*esto no tiene sentido, pero funciona*/
   text-decoration: none;
   color: white;
   background-color: #4CEA8C;
-  margin: 5em 33em 0 33em;
-  padding: 0.6em;
+  margin: 0 33em 1em 35em;
+  padding: 0.9em;
 }
 /*cambio de color del texto de la sección1*/
 #section1 h2, #section1 h1, #section1 p{
   color: white;
+  text-align: center;
+  font-weight: bold;
 }
 /*formato de la segunda sección*/
 #section2{
-  outline: 2px solid red;
+  /*outline: 2px solid red; */
   background-color: #FF9696;
   padding: 4em;
 }
 #section2 h2, #section2 h4, #section2 h5, #section2 h6{
   color: white;
+  text-align: center;
+  font-weight: bold;
 }
 #section2 table{
   width: 70.5em;
@@ -173,9 +178,7 @@ header .text-uppercase a:hover {
   height: 10em;
   /*vertical-align: middle;*/
 }
-#section3{
-    /*outline: 2px solid yellow;*/
-}
+
 /*Dar formato a la imagen del computador*/
 #section3 #img2{
   width: 60em;
@@ -188,45 +191,14 @@ header .text-uppercase a:hover {
   width: 15em;
   height: 15em;
 }
+/*formato de la tabla que contiene los productos*/
 #section3 table{
   width: 100%;
   text-align: center;
   /*outline: 2px solid red;*/
 }
-
-/*.container{
-  width: auto;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
-  outline: 2px solid red;
-}
-
-.container:before, .container:after {
-  content: " ";
-  display: table;
-  outline: 2px solid yellow;
-}
-.container:after {
-  clear: both;
-}
-
-
-.mb-0 {
-  margin-bottom: 0px;
-}
-
-.mt-0 {
-  margin-top: 0px;
-}
-
-.m-0 {
-  margin: 0px;
-}*/
-
-
-h2, h1, p, h4{
+/*formato del texto de la sección 3*/
+#section3 h2, #section3 h4{
   text-align: center;
   font-weight: bold;
 }
